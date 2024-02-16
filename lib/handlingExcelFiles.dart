@@ -40,7 +40,7 @@ class Excelfiles {
 
   }
 
-  /*void readexcelfile(File? file) async {
+  void readexcelfile(File? file) async {
     //var file = "/storage/emulated/0/Download/billNo02.xlsx";
     var bytes = file!.readAsBytesSync();
     var excel = Excel.decodeBytes(bytes);
@@ -93,6 +93,6 @@ class Excelfiles {
         counter++;
       }
     }
-  }*/
+  }
 
 }
